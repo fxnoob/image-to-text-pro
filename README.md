@@ -1,4 +1,4 @@
-# Image to Text pro chrome extension
+# Image to Text OCR chrome extension
 
 ### Extract Text from an Image on any webpage.
 
@@ -33,6 +33,10 @@
 - yarn v1.17.3
 - node v12.3.1
 
+### Install toolchain utility globally
+
+- npm install -g `manifest.js`
+
 ### Build
 
 #### For Local Development
@@ -40,8 +44,8 @@
 #### For Chromium Development Build
 
 ```
-yarn
-yarn dev:chromium
+npm install
+manifest build
 ```
 
 #### For Firefox Development Build

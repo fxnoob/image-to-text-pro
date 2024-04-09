@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import constants from "../../constants";
-import Index from "./components";
+import constants from "./constants";
+import Index from "./src/content-scripts/components";
 
 const mountId = constants.contentScript.mountId;
 const Element = document.createElement("div");

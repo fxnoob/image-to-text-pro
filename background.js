@@ -1,11 +1,10 @@
-import "@babel/polyfill";
-import chromeService from "./services/chromeService";
-import Routes from "./routes";
-import messagePassing from "./services/messagePassing";
-import constants from "../constants";
-import db, { schema } from "./services/dbService";
-import Constants from "../constants";
-import { DataStore, generateGuid } from "./services/helper";
+import chromeService from "./src/services/chromeService";
+import Routes from "./src/routes";
+import messagePassing from "./src/services/messagePassing";
+import constants from "./constants";
+import db, { schema } from "./src/services/dbService";
+import Constants from "./constants";
+import { DataStore, generateGuid } from "./src/services/helper";
 /**
  * Main extension functionality
  *
