@@ -18,8 +18,7 @@
     "deploy_jsdoc": "yarn jsdoc &&  gh-pages -d out",
     "zip": "zip -r ext.zip dist/*",
     "test": "yarn build:chromium && yarn build:firefox",
-    "generate:locale": "node scripts/generate-locale",
-    "delete:locale": "node scripts/delete-locale"
+    "translate": "manifest translate sync"
   },
   "husky": {
     "hooks": {
@@ -30,7 +29,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "husky": "^3.0.9"
+    "husky": "^3.0.9",
+    "manifest.js": "^0.0.10"
   },
   "dependencies": {
     "@material-ui/core": "^4.3.3",
